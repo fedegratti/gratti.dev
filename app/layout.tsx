@@ -15,6 +15,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Federico Gratti Portfolio",
   description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
+  openGraph: {
+    title: "Federico Gratti Portfolio",
+    description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
+    images: ['/banner.jpg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Federico Gratti Portfolio",
+    description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
+    images: ['/banner.jpg'],
+  },
   other: {
     "theme-color": "#fafafa"
   },
