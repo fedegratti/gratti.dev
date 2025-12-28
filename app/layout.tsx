@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Federico Gratti Portfolio",
   description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
+  other: {
+    "theme-color": "#fafafa"
+  },
 };
 
 export default function RootLayout({
