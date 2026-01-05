@@ -16,8 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://gratti.dev'),
   title: "Federico Gratti Portfolio",
   description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Federico Gratti Portfolio",
     description: "Portfolio website of Federico Gratti, showcasing projects and skills in web development and design.",
