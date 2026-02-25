@@ -1,0 +1,15 @@
+{
+    "title": "Federico Gratti Portfolio",
+    "description": "Personal portfolio of Federico Gratti, showcasing projects and skills in web development and design.",
+    "url": "https://gratti.dev",
+    "banner": "/banner.jpg",
+    "author": "Federico Gratti",
+    "keywords": ["web development", "portfolio", "projects", "design", "frontend", "backend", "full-stack"],
+    "language": "en",
+    "theme_color": "#fafafa",
+    "social": {
+        "twitter": "https://twitter.com/fedegratti",
+        "linkedin": "https://www.linkedin.com/in/fedegratti",
+        "github": "https://github.com/fedegratti"
+    }
+}
