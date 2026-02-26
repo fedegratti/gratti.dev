@@ -6,6 +6,7 @@ import { useState } from "react";
 export default function Page() {
     const [count, setCount] = useState(0)
     const [name, setName] = useState("");
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <div className="flex flex-col items-center gap-4 min-h-screen items-center justify-center bg-zinc-50 font-sans">
@@ -46,6 +47,18 @@ export default function Page() {
                 />
 
                 <p>Hello, {name}!</p>
+            </div>
+
+            <hr className="w-full border-t border-zinc-300 my-4" />
+
+            <div className="flex items-center gap-4 text-black">
+              <button 
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors cursor-pointer active:bg-blue-700"
+              onClick={() => setIsOpen(!isOpen)}>
+                Toggle
+              </button>
+
+              {isOpen && <p>Now you see me!</p>}
             </div>
         </div>
     )
